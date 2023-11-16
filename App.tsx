@@ -6,7 +6,7 @@ import {
 } from '@walletconnect/modal-react-native';
 // Add in the useWalletConnectModal hook
 
-const projectId = '...';
+const projectId = '305b48a4cda3e787729533faab2e38aa';
 
 const providerMetadata = {
 	name: 'YOUR_PROJECT_NAME',
@@ -34,7 +34,7 @@ export default function App() {
 	// Main UI Render
 	return (
 		<View style={styles.container}>
-			<Text style={styles.heading}>WalletConnect Modal RN Tutorial</Text>
+			<Text style={styles.heading}>NetProDex Wallet!</Text>
 			<Text>{isConnected ? address : 'No Connected'}</Text>
 			<Pressable
 				onPress={handleButtonPress}
